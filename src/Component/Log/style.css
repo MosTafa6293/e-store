@@ -1,0 +1,46 @@
+.form-container {
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  width: 500px;
+  height: 650px;
+  border: 1px solid rgba(0,0,0,0);
+  border-radius: 4%;
+  box-shadow: 2px 0px 15px 0px rgba(0,0,0,0.75);
+  background-color: #fff;
+}
+
+h1 {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.form-btn {
+    display: block;
+    height: 50px;
+    background: linear-gradient(
+      90deg,
+      rgb(65, 108, 142) 0%,
+      rgb(42, 76, 88) 100%);
+  }
+
+.form-btn:hover {
+  background: linear-gradient(
+      90deg,
+      rgb(110, 123, 250) 0%,
+      rgb(72, 42, 88) 100%
+    );
+    transition: all 0.4s ease-out;
+}
+
+.form-link {
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #6C5998;
+}
+
+.form-link:hover {
+  color: #0077FF;
+}

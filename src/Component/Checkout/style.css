@@ -1,0 +1,25 @@
+.grid-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 0 10px 10px;
+    margin: auto;
+}
+
+.prod-img {
+    width: 95%;
+    height: 100%;
+}
+
+.desc {
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.price {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}

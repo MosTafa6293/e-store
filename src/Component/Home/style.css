@@ -1,0 +1,11 @@
+.card-container{
+    padding-bottom: 50px;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card:hover {
+    box-shadow: 2px 8px 15px 5px rgb(90, 90, 90);
+}

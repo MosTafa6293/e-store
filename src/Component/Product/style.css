@@ -1,0 +1,66 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 0 10px 10px;
+    margin: 0;
+}
+
+.prod-img {
+    width: 95%;
+    height: 100%;
+}
+
+.desc {
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.desc p {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.price {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.desc Button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.cmnt {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.reveiws {
+    width: 50%;
+    padding: 10px 20px;
+    margin: 30px 10px 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto 2fr;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.grid img {
+    width: 80px;
+    height: 80px;
+    margin: 0 30px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+}
